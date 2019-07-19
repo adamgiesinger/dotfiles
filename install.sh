@@ -61,6 +61,8 @@ curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools
 # spaceship theme
 curl -fsSL https://raw.githubusercontent.com/denysdovhan/spaceship-zsh-theme/master/install.sh | zsh
 
+cp ./.zshrc ~
+
 ######################
 # Coding
 ######################

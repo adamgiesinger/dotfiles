@@ -11,7 +11,7 @@ echo "Installing Brew"
   cd ~/Downloads
 
   #Install Brew
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  sudo /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
   #Install Cask
   brew tap caskroom/cask
@@ -36,8 +36,6 @@ echo "Install Brew packages"
   brew cask install google-chrome \
                       firefox \
                       spotify \
-                      iterm2 \
-                      skype \
                       intellij-idea \
                       phpstorm \
                       atom \
@@ -46,7 +44,10 @@ echo "Install Brew packages"
                       docker-toolbox \
                       sourcetree \
                       java \
-                      spectacle
+                      spectacle \
+                      brave-browser \
+                      visual-studio-code \
+                      spectacle \
 
 }
 
